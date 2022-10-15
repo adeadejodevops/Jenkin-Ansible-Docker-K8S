@@ -7,12 +7,12 @@
 
 1. Install docker and start docker services
    ```sh 
-   yum install docker -y
+  sudo yum install docker.io -y
    docker --version 
    
    # start docker services
-   service docker start
-   service docker status
+  sudo service docker start
+  sudo service docker status
    ```
 1. Create a user called dockeradmin
    ```sh
